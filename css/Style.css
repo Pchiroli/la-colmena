@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #fff88e;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #333;
+    
+}
+
+.header .header_logo img{
+    width: 20%;
+   }
+/* .header {
+    width: 100%;
+}
+ */
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: black;
+}
+div.esquemasGrid {
+    align-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px 170px;
+    margin: auto auto 80px 80px;
+    gap: 25px;
+}
+.fotos {
+    width: 100%;
+    height: auto;
+    
+    grid-template-columns: 1fr;
+    padding: 5px;
+    
+}
+
+.videos iframe {
+    width: 600px;
+    height: 400px;
+
+
+}
+section.galeria {
+    margin: 50px 10px;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+}
+section.packClases {
+    margin: 50px 10px;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+}
+section.clases {
+    margin: 50px 10px;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+}
+section.contacto {
+    margin: 50px 10px;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+}
+.header_logo{
+align-items: start;
+}  
+li {
+    font-family: 'Lora', serif;
+    list-style: none;
+}
+.texto {
+    color: black;
+}
+.clases  {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.contacto {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.galeria {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.packClases {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.contacto {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+
+
+@media (max-width: 768px) {
+
+    div.esquemasGrid {
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 170px;
+        margin: auto auto 80px 80px;
+        gap: 25px;
+    }
+
+    section.galeria .clases .packClases .contacto {
+        align-items: center;
+        display: grid;
+        margin: 50px 10px;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+
