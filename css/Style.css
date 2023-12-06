@@ -76,7 +76,7 @@ section.contacto {
     padding: 20px;
 }
 .header_logo{
-align-items: start;
+    align-items: start;
 }  
 li {
     font-family: 'Lora', serif;
@@ -114,6 +114,42 @@ li {
     border: 1px solid black;
     color: black;
     display: inline;
+}
+
+.gMaps {
+    padding: 20px;
+}
+
+.consulta {
+    display: flex;    
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.eligeClases {
+    display: inline;    
+    max-width: 300px;
+    margin: left;
+    padding: 5px;
+}
+
+.promoClases {
+    display: inline;    
+    max-width: 300px;
+    margin: left;
+    padding: 5px;
+}
+
+.datoComprador {
+    padding: 5px;
+    display: flex;    
+    flex-direction: column;
+    max-width: 300px;
+    margin: left;
+}
+.botones {
+    padding: 5px;
 }
 
 
