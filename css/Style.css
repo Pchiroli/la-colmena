@@ -139,14 +139,12 @@ li {
 .eligeClases {
     display: inline;    
     max-width: 300px;
-    margin: left;
     padding: 5px;
 }
 
 .promoClases {
     display: inline;    
     max-width: 300px;
-    margin: left;
     padding: 5px;
 }
 
@@ -155,7 +153,6 @@ li {
     display: flex;    
     flex-direction: column;
     max-width: 300px;
-    margin: left;
 }
 .botones {
     padding: 5px;
