@@ -5,7 +5,7 @@
 }
 
 body {
-background-color: #fff88e;
+background-color: #ece42c;
 }
 header{
     display: flex;
@@ -13,16 +13,12 @@ header{
     justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #333;
-    
+    max-width: auto;
 }
 
 .header .header_logo img{
     width: 20%;
-   }
-/* .header {
-    width: 100%;
 }
- */
 h1 {
     font-size: 70px;
 }
@@ -48,37 +44,24 @@ div.esquemasGrid {
 .fotos {
     width: 100%;
     height: auto;
-    
     grid-template-columns: 1fr;
-    padding: 5px;
-    
+    padding: 5px; 
 }
-
+.galeria , .clases , .packClases, .contacto {
+    background: linear-gradient(38deg, black, yellow 40% );
+}
+.titulos {
+    text-align: center;
+    padding-left: 0;
+}
+.parraPrincipal {
+    text-align: center;
+}
 .videos iframe {
     width: 600px;
     height: 400px;
-
-
 }
-section.galeria {
-    margin: 50px 10px;
-    width: 300px;
-    height: 160px;
-    padding: 20px;
-}
-section.packClases {
-    margin: 50px 10px;
-    width: 300px;
-    height: 160px;
-    padding: 20px;
-}
-section.clases {
-    margin: 50px 10px;
-    width: 300px;
-    height: 160px;
-    padding: 20px;
-}
-section.contacto {
+section.clases , section.contacto , section.packClases , section.galeria {
     margin: 50px 10px;
     width: 300px;
     height: 160px;
