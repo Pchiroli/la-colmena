@@ -107,6 +107,13 @@ li {
     color: black;
     display: inline;
 }
+.enviar  {
+    margin: 5px 0px 5px 0px;
+   
+}
+.reset  {
+    margin-bottom: 5px;
+}
 
 .gMaps {
     padding: 20px;
@@ -165,6 +172,12 @@ footer {
         height: auto;
         padding: 20px;
     }
+
+    .fotos {
+        width: auto;
+        height: auto;
+        grid-column: 1fr;
+        padding: 5px; 
+
 }
-
-
+}
