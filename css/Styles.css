@@ -1,0 +1,183 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+background-color: #ece42c;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #333;
+    max-width: auto;
+   
+}
+
+.header .header_logo img{
+    width: 20%;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+.texto {
+text-align: center;
+}
+
+div.esquemasGrid {
+    align-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px 170px;
+    margin: auto auto 80px 80px;
+    gap: 25px;
+    
+} */
+/* .fotos {
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+    padding: 5px; 
+} */
+/* .galeria , .clases , .packClases, .contacto {
+    background: linear-gradient(38deg, black, yellow 40% );
+} */
+/* .titulos {
+    text-align: center;
+    padding-left: 0;
+} */
+/* .parraPrincipal {
+    text-align: center;
+} */
+/* .videos iframe {
+    width: 600px;
+    height: 400px;
+} */
+/* section.clases , section.contacto , section.packClases , section.galeria {
+    margin: 50px 10px;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+} */
+
+/* li {
+    font-family: 'Lora', serif;
+    list-style: none;
+} */
+/* .texto {
+    color: black;
+} */
+/* .clases  {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.contacto {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.galeria {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.packClases {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+}
+.contacto {
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+    display: inline;
+} */
+/* .enviar  {
+    margin: 5px 0px 5px 0px;
+   
+}
+.reset  {
+    margin-bottom: 5px;
+} */
+
+/* .gMaps {
+    padding: 20px;
+} */
+
+/* .consulta {
+    display: flex;    
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+} */
+
+/* .eligeClases {
+    display: inline;    
+    max-width: 300px;
+    padding: 5px;
+}
+
+.promoClases {
+    display: inline;    
+    max-width: 300px;
+    padding: 5px;
+}
+
+.datoComprador {
+    padding: 5px;
+    display: flex;    
+    flex-direction: column;
+    max-width: 300px;
+} */
+/* .botones {
+    padding: 5px;
+} */
+
+/* footer {
+    background-color: #333;
+} */
+
+
+/* @media (max-width: 768px) {
+
+    div.esquemasGrid {
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 170px;
+        margin: auto auto 80px 80px;
+        gap: 25px;
+    }
+
+    section.galeria .clases .packClases .contacto {
+        align-items: center;
+        display: grid;
+        margin: 50px 10px;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .fotos {
+        width: auto;
+        height: auto;
+        grid-column: 1fr;
+        padding: 5px; 
+
+}
+} */
