@@ -40,6 +40,7 @@ div.esquemasGrid {
     grid-template-rows: 170px 170px;
     margin: auto auto 80px 80px;
     gap: 25px;
+    
 }
 .fotos {
     width: 100%;
