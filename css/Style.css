@@ -64,54 +64,65 @@ body div.esquemasGrid ul {
 body div.esquemasGrid .parraPrincipal {
   text-align: center;
 }
-body .fotos {
+body section.foto {
   display: grid;
   width: 100%;
   height: auto;
   grid-template-columns: 1fr 1fr;
   padding: 5px;
 }
-body .videos iframe {
+body section.videos {
+  display: grid;
   margin-top: 5px;
   width: 600px;
   height: 400px;
-}
-body .eligeClases {
-  display: inline;
-  max-width: 300px;
+  grid-template-columns: 1fr 1fr;
   padding: 5px;
 }
-body .promoClases {
-  display: inline;
-  max-width: 300px;
-  padding: 5px;
-}
-body .datoComprador {
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  max-width: 300px;
-}
-body .consulta {
+
+.consulta {
   display: flex;
   flex-direction: column;
   max-width: 300px;
   margin: 0 auto;
 }
-body .botones {
+
+.botones {
   padding: 5px;
 }
-body .enviar {
+
+.enviar {
   margin: 5px 0px 5px 0px;
 }
-body .reset {
+
+.reset {
   margin-bottom: 5px;
 }
-body footer {
+
+footer {
   background-color: #333;
 }
-body footer .gMaps {
+footer .gMaps {
   padding: 20px;
+}
+
+form.eligeClases {
+  display: inline;
+  max-width: 300px;
+  padding: 5px;
+}
+
+form.promoClases {
+  display: inline;
+  max-width: 500px;
+  padding: 5px;
+}
+
+form.datoComprador {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
 }
 
 @media (max-width: 768px) {
@@ -131,7 +142,14 @@ body footer .gMaps {
     height: auto;
     padding: 20px;
   }
-  .fotos {
+  section.foto {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-column: 1fr;
+    padding: 5px;
+  }
+  section.videos {
     display: grid;
     width: auto;
     height: auto;

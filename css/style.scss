@@ -62,33 +62,22 @@ body {
             text-align: center;
         }   
 }
-    .fotos {
+    section.foto {
     display: grid;
     width: 100%;
     height: auto;
     grid-template-columns: 1fr 1fr;
     padding: 5px; 
 }
-    .videos iframe {
+    section.videos {
+    display: grid;
     margin-top: 5px;
     width: 600px;
     height: 400px;
-    }
-    .eligeClases {
-    display: inline;    
-    max-width: 300px;
+    grid-template-columns: 1fr 1fr;
     padding: 5px;
     }
-    .promoClases {
-        display: inline;    
-        max-width: 300px;
-        padding: 5px;
-    }
-    .datoComprador {
-        padding: 5px;
-        display: flex;    
-        flex-direction: column;
-        max-width: 300px;
+   
     }
     .consulta {
         display: flex;    
@@ -111,7 +100,25 @@ body {
         padding: 20px;
     }
 }
+form.eligeClases {
+    
+    display: inline;
+    max-width: 300px;
+    padding: 5px;
+
+    }
+form.promoClases {
+    display: inline;
+    max-width: 500px;
+    padding: 5px;
+    }
+form.datoComprador {
+    padding: 5px;
+    display: flex;    
+    flex-direction: column;
+    max-width: 300px;
 }
+
 
 
 @media (max-width: 768px) {
@@ -134,7 +141,14 @@ body {
         padding: 20px;
     }
 
-    .fotos {
+    section.foto {
+        display: grid;
+        width: auto;
+        height: auto;
+        grid-column: 1fr;
+        padding: 5px; 
+    }
+    section.videos {
         display: grid;
         width: auto;
         height: auto;
