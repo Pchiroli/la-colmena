@@ -71,13 +71,10 @@ body section.foto {
   grid-template-columns: 1fr 1fr;
   padding: 5px;
 }
-body section.videos {
-  display: grid;
-  margin-top: 5px;
+
+.videos iframe {
   width: 600px;
   height: 400px;
-  grid-template-columns: 1fr 1fr;
-  padding: 5px;
 }
 
 .consulta {
