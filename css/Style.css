@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Chicle&family=Josefin+Sans:wght@100&family=Lora&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Chicle", serif;
   background-color: #333;
   max-width: auto;
 }
@@ -22,6 +23,7 @@ body header .header_logo img {
   width: 20%;
 }
 body h1 {
+  font-family: "Bruno Ace SC", sans-serif;
   font-size: 70px;
 }
 body h2 {
@@ -55,14 +57,13 @@ body div.esquemasGrid .galeria, body div.esquemasGrid .clases, body div.esquemas
   display: inline;
 }
 body div.esquemasGrid ul {
-  font-family: "Lora", serif;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 28px;
   list-style: none;
   font-weight: bold;
   text-align: center;
   padding-left: 0;
-}
-body div.esquemasGrid .parraPrincipal {
-  text-align: center;
+  text-decoration: none;
 }
 body section.foto {
   display: grid;
@@ -70,6 +71,29 @@ body section.foto {
   height: auto;
   grid-template-columns: 1fr 1fr;
   padding: 5px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+a:focus {
+  border-bottom: 2px solid;
+  background: #333;
+}
+
+a:active {
+  background: #265301;
+  color: #cdfeaa;
 }
 
 .videos iframe {
@@ -103,15 +127,19 @@ footer .gMaps {
   padding: 20px;
 }
 
+.parraPrincipal {
+  text-align: center;
+}
+
 form.eligeClases {
   display: inline;
-  max-width: 300px;
+  max-width: 400px;
   padding: 5px;
 }
 
 form.promoClases {
   display: inline;
-  max-width: 500px;
+  max-width: 400px;
   padding: 5px;
 }
 
@@ -119,7 +147,22 @@ form.datoComprador {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 400px;
+}
+
+.paquetes {
+  font-size: 20px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.subTitulo {
+  font-family: "chicle", serif;
+  font-size: 30px;
 }
 
 @media (max-width: 768px) {
