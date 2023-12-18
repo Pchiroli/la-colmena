@@ -82,21 +82,21 @@ body {
         outline: none;
         text-decoration: none;
     }
-    a:link{
+    a.link:link{
         color: aqua;
     }
-    a:visited {
+    a.link:visited {
         color: aqua;
     }
-    a:hover{
+    a.link:hover{
         border-bottom:  1px solid;
     }
 
-    a:focus{
+    a.link:focus{
         border-bottom: 2px solid;
         background: #333;
     }
-    a:active {
+    a.link:active {
         background: #265301;
         color: #cdfeaa;
     }
