@@ -36,33 +36,33 @@
     </header>
             <h1 class="titlePack">Todo lo que buscas para tu entrenamiento esta aca</h1>
             <p class="parraPrincipal">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <div class="paquetes">
+    
     <form class="datoComprador">
-        <label for="nombre">Nombre</label>
+        <div class="paquetes">
+            <label for="nombre">Nombre</label>
                 <input type="text" id="Nombre" placeholder="Ingrese su nombre">
             <label for="mail">Mail</label>
                 <input type="email" name="mail" id="mail" placeholder="Ingrese su mail" required>
             <label for="Telefono">Telefono de Contacto</label>
                 <input type="number" id="Telefono" placeholder="Ingrese su Telefono">     
-        </form>
-
-        <form class="promoClases">
             <p class="subTitulo">Promo Clases</p>
-            <input type="checkbox" name="casillas" id="" value="promo1"> Sin impacto + Nivel 1
-            <input type="checkbox" name="casillas" id="" value="promo2"> Nivel 1 + Nivel 2
-        </form>
+            <div class="promoClases">
+                <input type="checkbox" name="promo1" id="promo1"><label for="promo1">Sin impacto + Nivel 1</label>
+                <input type="checkbox" name="promo2" id="promo2"><label for="promo2">Nivel 1 + Nivel 2</label>
+            </div>
 
-        <form class="eligeClases">
-            <p class="subTitulo">Elegi tu clase</p>
-            <input type="checkbox" name="casillas" id="" value="sinImpacto"> Sin impacto
-            <input type="checkbox" name="casillas" id="" value="nivel1"> Nivel 1
-            <input type="checkbox" name="casillas" id="" value="nivel2"> Nivel 2
-           
 
-        </form>
-        <form class="botones">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo">
+            <p class="subtituloClase">Elegi tu clase</p>
+            <div class="eligeClases">
+                <input type="checkbox" name="sinImpacto" id="sinImpacto"><label for="sinImpacto">Sin impacto</label>
+                <input type="checkbox" name="nivel1" id="nivel1"><label for="nivel1">Nivel 1</label> 
+                <input type="checkbox" name="nivel2" id="nivel2"><label for="nivel2">Nivel 2</label>
+            </div>
+
+            <div class="botones">
+                <input type="submit" class="redondeado" value="Enviar">
+                <input type="reset" class="redondeado" value="Borrar todo">
+            </div>
         </form>
     </div>       
 

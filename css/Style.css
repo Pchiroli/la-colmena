@@ -78,20 +78,24 @@ a {
   text-decoration: none;
 }
 
-a:link {
+a.link:link {
   color: aqua;
 }
 
-a:hover {
+a.link:visited {
+  color: aqua;
+}
+
+a.link:hover {
   border-bottom: 1px solid;
 }
 
-a:focus {
+a.link:focus {
   border-bottom: 2px solid;
   background: #333;
 }
 
-a:active {
+a.link:active {
   background: #265301;
   color: #cdfeaa;
 }
@@ -131,19 +135,38 @@ footer .gMaps {
   text-align: center;
 }
 
-form.eligeClases {
-  display: inline;
-  max-width: 400px;
-  padding: 5px;
+.eligeClases {
+  margin-top: 0px;
+  align-self: center;
+  width: 150px;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  row-gap: 1px;
+  padding: 5px 5px 5px 5px;
 }
 
-form.promoClases {
-  display: inline;
-  max-width: 400px;
-  padding: 5px;
+.promoClases {
+  margin-top: 0px;
+  align-self: center;
+  width: 250px;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  row-gap: 1px;
+  padding: 5px 5px 5px 5px;
+  /*     display: inline;
+      flex-direction: row;
+      max-width: 400px;
+      padding: 5px;
+      margin-bottom: 10px; */
 }
 
-form.datoComprador {
+div.datoComprador {
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -157,12 +180,32 @@ form.datoComprador {
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
+  text-align: center;
   margin-bottom: 15px;
 }
 
-.subTitulo {
+.subtituloClase, .subTitulo {
+  text-decoration: underline;
   font-family: "chicle", serif;
   font-size: 30px;
+  margin: 5px 0px 0px 0px;
+}
+
+.botones {
+  align-self: center;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.redondeado {
+  align-items: center;
+  width: 130px;
+  border-radius: 5px;
+}
+
+.paquetes input {
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
